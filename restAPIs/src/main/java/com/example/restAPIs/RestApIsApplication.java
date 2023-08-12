@@ -1,13 +1,13 @@
-package com.example.demo2;
+package com.example.restAPIs;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Demo2Application {
+public class RestApIsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Demo2Application.class, args);
+		SpringApplication.run(RestApIsApplication.class, args);
 	}
 
 }
