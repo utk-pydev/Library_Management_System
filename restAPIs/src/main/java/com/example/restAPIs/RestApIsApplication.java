@@ -9,10 +9,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class RestApIsApplication {
 	private static final Logger logger = LoggerFactory.getLogger(RestApIsApplication.class);
 	public static void main(String[] args) {
-		DemoController demoController = new DemoController();
+	//	DemoController demoController = new DemoController();
 		//This will not be stored in the spring container.
-		logger.info("Democontroller object is {}", demoController);
+		//logger.info("Democontroller object is {}", demoController);
 		SpringApplication.run(RestApIsApplication.class, args);
 	}
-
 }
