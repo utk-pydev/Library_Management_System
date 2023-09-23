@@ -70,8 +70,5 @@ public class DemoController {
        Two ways of doing dependency Injection:
        1. Field Injection
        2. Constructor Injection
-
-
-
     */
 }
