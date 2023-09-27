@@ -12,6 +12,6 @@ public class HandleConfig {
 
     @ExceptionHandler(PersonNotFoundException.class)
     public ResponseEntity handlePersonNotFoundException(PersonNotFoundException ex){
-        return new ResponseEntity(ex.getMessage(), HttpStatus.BAD_REQUEST);
+        return new ResponseEntity<>(ex.getMessage(), HttpStatus.BAD_REQUEST);
     }
 }
