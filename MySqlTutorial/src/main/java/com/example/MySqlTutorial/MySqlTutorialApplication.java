@@ -2,8 +2,10 @@ package com.example.MySqlTutorial;
 import com.example.MySqlTutorial.Model.Person;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
+@ComponentScan("com.example.MySqlTutorial")
 public class MySqlTutorialApplication {
 
 	public static void main(String[] args) {

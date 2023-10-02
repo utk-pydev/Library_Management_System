@@ -10,6 +10,7 @@ import javax.persistence.*;
 @NoArgsConstructor
 @Builder
 @Entity
+@Table(name = "person")
 public class Person {
 
     /*
@@ -54,3 +55,9 @@ public class Person {
     @Transient
     private String countryCode;
 }
+
+
+/*
+* Study about flyout Later
+*
+* */
