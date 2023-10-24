@@ -5,12 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70d4f798-457a-4f29-894e-b410e0b76362" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/restAPIs/src/main/java/com/example/restAPIs/DemoController2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GojkekInterview/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GojkekInterview/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GojkekInterview/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GojkekInterview/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GojkekInterview/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GojkekInterview/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GojkekInterview/src/main/java/org/example/Colors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GojkekInterview/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GojkekInterview/src/main/java/org/example/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GojkekInterview/src/main/java/org/example/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restAPIs/src/main/java/com/example/restAPIs/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/restAPIs/src/main/java/com/example/restAPIs/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restAPIs/src/main/java/com/example/restAPIs/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/restAPIs/src/main/java/com/example/restAPIs/DemoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restAPIs/src/main/java/com/example/restAPIs/RestApIsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/restAPIs/src/main/java/com/example/restAPIs/RestApIsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restAPIs/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/restAPIs/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +42,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Java/Library_Management_System/restAPIs"
+    "last_opened_file_path": "D:/Java/Library_Management_System/Redis-Tutorial"
   }
 }]]></component>
   <component name="RunManager">
