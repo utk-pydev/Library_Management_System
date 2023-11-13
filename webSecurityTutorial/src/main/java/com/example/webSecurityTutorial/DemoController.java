@@ -1,7 +1,13 @@
 package com.example.webSecurityTutorial;
 
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -12,6 +18,9 @@ public class DemoController {
     * the JSESSIONID is of an authenticated user. it will not redirect
     * to /login API else it will redirect to /login and after entering the creds, a new logged in JESSIONID will be given by the BE
     * */
+
+    @Autowired
+    MyUserDetailService myUserDetailService;
 
     @GetMapping("/demo")
     public String greet(){
@@ -27,7 +36,16 @@ public class DemoController {
         return "Testing the code.....";
     }
     @GetMapping("/developcode")
-    public String accessServer(){        return "Accessing the server....";
+    public String accessServer(){
+        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+      MyUser myUser = (MyUser) authentication.getPrincipal();
+
+        return myUser.getName() +"Accessing the server....";
+    }
+
+    @PostMapping("/storeUser")
+    public void createUser(@RequestBody MyUser myUser){
+        myUserDetailService.createUser(myUser);
     }
 
     @GetMapping("/home")

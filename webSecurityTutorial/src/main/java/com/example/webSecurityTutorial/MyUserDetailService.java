@@ -22,6 +22,7 @@ public class MyUserDetailService implements UserDetailsService {
 
     public void createUser(MyUser myUser) throws DuplicateKeyException{
         try {
+
             myUserRepository.save(myUser);
         }catch (DuplicateKeyException e){
             throw new DuplicateKeyException(Objects.requireNonNull(e.getMessage()));

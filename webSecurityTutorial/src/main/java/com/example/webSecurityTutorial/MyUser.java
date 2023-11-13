@@ -1,6 +1,6 @@
 package com.example.webSecurityTutorial;
 
-import lombok.Getter;
+import lombok.*;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -11,6 +11,11 @@ import java.util.Collection;
 import java.util.stream.Collectors;
 
 @Entity
+@Setter
+@Getter
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class MyUser implements UserDetails {
 
     private final static String AUTHORITY_DELIMITER=",";
